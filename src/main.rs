@@ -16,6 +16,7 @@ fn main() {
     
     let template_title =  template_content.replace("$title", &path[1][..path[1].len()-3]); // on remplace le titre par le nom du fichier sans l'extension
 
+    
 
     for s in file.chars() {
         if s != '\n'{
